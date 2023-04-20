@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// import Slot from "./AnotherSlotMachine/Slot";
+import Slot from "./AgainSlotMachine/Slot";
+import "./App.css";
+// import SlotMachine from "./SlotMachine/SlotMachine";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  /**
+   *
+   * this Slot component is imported from AgainSlotMachine Folder
+   * the other slot machine components are not in use.
+   * so, you can delete them to keep your code clean and easy.
+   *
+   */
+  return <Slot />;
 }
 
 export default App;
